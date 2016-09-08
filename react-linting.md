@@ -84,6 +84,12 @@ function ItemList(props) {
   );
 }
 ```
+* [Code examples from Airbnb could be helpful with this one] Bind event handlers for the render method in the constructor of a component rather than within a return statement (otherwise, render will create a brand new function on every render)
+* Do not use an underscore prefix  --> Everything should be treated as public
+* Return a value in render statements always
+
 13) Ordering
+* React Docs have a list of ordering to be used
 
 14) isMounted
+* Do not use isMounted, it is an anti=pattern and not available within ES6 classes (on its way to being depracated)
